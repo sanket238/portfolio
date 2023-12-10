@@ -31,11 +31,11 @@ function App() {
 
             <Route path="/" element={<Main />} />
 
-            <Route path="/about" element={<AboutPage />} />
+            <Route path="/self_reflection" element={<AboutPage />} />
 
-            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/development" element={<BlogPage />} />
 
-            <Route path="/work" element={<WorkPage />} />
+            <Route path="/design" element={<WorkPage />} />
 
             <Route path="/skills" element={<MySkillsPage />} />
             {/* Below is to catch all the other routes and send the user to main component,
